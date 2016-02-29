@@ -1,0 +1,282 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Download open sans 600 ttf*/
+/*@font-face {
+  font-family:"Open Sans";
+  src: url("OpenSans-Light.ttf")
+}*/
+
+.content_center {
+  width: 25%;
+  margin: 0 auto auto;
+}
+
+.clear {
+    clear: both;
+}
+
+#coluna_img {
+  width: 100%;
+  height: 306px;
+  background-position: center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+#colunatexto01{
+  width:950px;
+  height:300px;
+  margin:auto;
+}
+
+#colunatexto02{
+  width:500px;
+  height:160px;
+  float:left;
+  margin-top:125px;
+}
+
+.styletext01{
+  font-size:47px;
+  color:#e79924;
+  background-color:rgba(0, 0, 0, .8);
+  padding:7px;
+  display:inline-block;
+  margin-bottom:18px;
+  font-weight:600;
+}
+
+.styletext02{
+  font-size:23px;
+  color:#fff;
+  background-color:rgba(0, 0, 0, .8);
+  padding:7px;
+  display:inline-block;
+  margin-top:-15px;
+}
+
+.coluna0{
+  width:862px;
+  height:auto;
+  margin:auto;
+}
+
+.meetus.center{
+  width:31px;
+  height:auto;
+	margin-bottom: 10px;
+  margin-left: -17px;
+  float:left;
+  text-align:center;  
+}
+
+.meetus.center .event_line_future{
+  border-right: 3px dotted rgb(255, 138, 0);   
+  width: 29px;
+  margin-top: 60px;
+}
+
+.meetus.center hr{
+  width: 500px;
+  margin-left: -210px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  height: 4px;
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 255), rgba(255, 133, 0, 1), rgba(255, 255, 255, 255));
+  background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 255), rgba(255, 133, 0, 1), rgba(255, 255, 255, 255));
+  background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 255), rgba(255, 133, 0, 1), rgba(255, 255, 255, 255));
+  background-image: -o-linear-gradient(left, rgba(255, 255, 255, 255), rgba(255, 133, 0, 1), rgba(255, 255, 255, 255));
+}
+
+.meetus.center .event_line_past{
+  border-right: 7px solid rgb(225, 225, 225);
+  width: 29px;
+  margin-top: 0px;
+}
+
+.meetus_title{
+  width:443px;
+  margin-right: 4px;
+  height:140px;
+}
+
+.meetus.left{
+  width:400px;
+  margin-right: 4px;
+  margin-top: 140px;
+  height:auto;
+  float: left;
+}
+
+.meetus.right{
+  width:400px;
+  height:auto;
+  float: right;
+  margin-right:25px;
+  margin-top:148px;
+}
+.box_post_left{
+	float: right;
+  margin-right:10px;
+  width:370px;
+  height:auto;
+  background-color:#ffb000;
+  -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.box_post_right{
+	float: left;
+	width:370px;
+  height:auto;
+  background-color:#ff9000;
+  margin-left: 10px;
+  -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.meetus.ball{
+	margin-top: 30px;
+	height: 13px;
+	border-radius: 10px;
+	width: 13px;
+	position: relative;
+}
+
+.meetus.ball.milestone{
+	margin-top: 30px;
+	height: 13px;
+	border-radius: 10px;
+	width: 13px;
+	background:rgb(255, 102, 0);
+	position: relative;
+}
+
+.aptoide-milestone{
+	position: absolute;
+	width: 140px;
+	color: #FF6501;
+	font-weight: 600;
+	margin-left: -35px;
+	margin-top: 510px;
+}
+
+.box_post_left_milestone{
+	float: right;
+  height:80px;
+  margin-right:10px;
+  background-color:#ff6600;
+  -webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.box_post_right_milestone{
+	float: left;
+	margin-left: 12px;
+	height:80px;
+	background-color:#ff6600;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.event_title{
+  font-size:20px;
+  color:#FFFFFF;
+  font-weight:600;
+	margin-top:5px;
+}
+
+.event_date{
+  font-size:15px;
+  color:#FFFFFF;
+  font-weight:600;
+  margin-top:-23px;
+}
+
+.event_description{
+  font-size:13px;
+  color:#FFFFFF;
+  margin-top:-10px;
+}
+
+.arrow_left{
+  float:right;
+  margin-bottom: -50px;
+  margin-top: 20px;
+}
+
+.arrow_left_milestone{
+  float: right;
+	margin-left: -15px;
+	margin-top: 20px;
+}
+
+.arrow_right{
+  float: left;
+	margin-bottom: -50px;
+	margin-top: 20px;
+}
+
+.arrow_right_milestone{
+  float: left;
+	margin-top: 20px;
+	margin-right: -15px;
+}
+
+.flag{
+	width: 40px;
+	height: 40px;
+	margin: 10px 20px 10px 0px;
+	margin-top: 10px;
+	float: left;
+}
+
+.meetus .text{
+	float: right;
+	max-width: 300px;
+	margin-top: 5px;
+	height: 50px;
+}
+
+.meetus .post{
+	max-width:440px;
+	padding:10px;
+}
+
+.aptoide-release{
+  font-size: 16px;
+  float: left;
+  color: #ff6600;
+  font-weight: 700;
+}
+
+.menu {
+  height: 100%;
+  float: left;
+  max-width: 35%;
+  text-align: center;
+}
+
+.menu form p {
+  margin-bottom: 0px;
+}
+
+form textarea {
+  max-width: 100%;
+  max-height: 50%;
+}
+
+form input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+}
