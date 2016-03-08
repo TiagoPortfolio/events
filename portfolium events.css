@@ -2,11 +2,15 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*Download open sans 600 ttf*/
-/*@font-face {
+@font-face {
   font-family:"Open Sans";
-  src: url("OpenSans-Light.ttf")
-}*/
+  src: url("OpenSans-Regular.ttf")
+}
+
+@font-face {
+  font-family:"Open Sans Semi Bold";
+  src: url("OpenSans-Semibold.ttf")
+}
 
 .content_center {
   width: 25%;
@@ -66,7 +70,7 @@ body {
   margin:auto;
 }
 
-.meetus.center{
+.events.center{
   width:31px;
   height:auto;
 	margin-bottom: 10px;
@@ -75,13 +79,13 @@ body {
   text-align:center;  
 }
 
-.meetus.center .event_line_future{
+.events.center .event_line_future{
   border-right: 3px dotted rgb(255, 138, 0);   
   width: 29px;
   margin-top: 60px;
 }
 
-.meetus.center hr{
+.events.center hr{
   width: 500px;
   margin-left: -210px;
   margin-top: 0px;
@@ -94,19 +98,19 @@ body {
   background-image: -o-linear-gradient(left, rgba(255, 255, 255, 255), rgba(255, 133, 0, 1), rgba(255, 255, 255, 255));
 }
 
-.meetus.center .event_line_past{
+.events.center .event_line_past{
   border-right: 7px solid rgb(225, 225, 225);
   width: 29px;
   margin-top: 0px;
 }
 
-.meetus_title{
+.events_title{
   width:443px;
   margin-right: 4px;
   height:140px;
 }
 
-.meetus.left{
+.events.left{
   width:400px;
   margin-right: 4px;
   margin-top: 140px;
@@ -114,7 +118,7 @@ body {
   float: left;
 }
 
-.meetus.right{
+.events.right{
   width:400px;
   height:auto;
   float: right;
@@ -143,7 +147,7 @@ body {
 	border-radius: 8px;
 }
 
-.meetus.ball{
+.events.ball{
 	margin-top: 30px;
 	height: 13px;
 	border-radius: 10px;
@@ -151,7 +155,7 @@ body {
 	position: relative;
 }
 
-.meetus.ball.milestone{
+.events.ball.milestone{
 	margin-top: 30px;
 	height: 13px;
 	border-radius: 10px;
@@ -194,6 +198,7 @@ body {
   color:#FFFFFF;
   font-weight:600;
 	margin-top:5px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .event_date{
@@ -204,6 +209,7 @@ body {
 }
 
 .event_description{
+  font-family: 'Open Sans Semi Bold', sans-serif;
   font-size:13px;
   color:#FFFFFF;
   margin-top:-10px;
@@ -241,14 +247,14 @@ body {
 	float: left;
 }
 
-.meetus .text{
+.events .text{
 	float: right;
 	max-width: 300px;
 	margin-top: 5px;
 	height: 50px;
 }
 
-.meetus .post{
+.events .post{
 	max-width:440px;
 	padding:10px;
 }
