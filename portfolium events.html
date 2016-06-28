@@ -15,16 +15,18 @@
       <input type="date" name="begin_date" value="">
       <p>End Date</p>
       <input type="date" name="end_date" value="">
+      <p id="errors" style="display:none;"></p>
       <input type="submit" name="add" value="Add Event">
     </form>
+
   </div>
 
   <!-- Events -->
   <div class="content_center events" data-nav-content data-nav-group="partners" data-nav-id="events">
 
-    <div id="events_box_left" style="display:none; float:right; width:100%;">
+    <div id="events_box_left" style="display:none; float:right; width:100%; margin-bottom:30px;">
       <div class="events ball" style="background:#ffb000; float:right; margin-right:-26px;"></div>
-      <div class="arrow_left"><img src="" width="13" height="33" alt=""/></div>
+      <div class="arrow_left"><img src="images/arrow_orange_right.png" width="13" height="33" alt=""/></div>
       <div class="box_post_left" style="background-color:#ffb000;">
         <div class="post">
           <img src="" alt="" style="max-width:430px;"/> 
@@ -35,23 +37,9 @@
       </div>
     </div>
 
-    <div id="events_box_left_milestone" style="display:none; float:right; width:100%;">
-      <div class="events ball milestone" style="float:right; margin-right:-26px;"></div>
-      <div class="arrow_left_milestone"><img src="" width="13" height="33" alt=""/></div>
-      <div class="box_post_left_milestone">
-        <div class="post">
-          <div class="flag"><img src="" width="37" height="37" alt=""/></div>
-          <div class="text">
-            <p class="event_title" style="color:#FFFFFF; margin-top:0px; font-size:20px;"></p>
-            <p class="event_date"  style="font-size:16px; color:#FFFFFF; margin-top:-18px;"></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="events_box_right" style="display:none; float:left; width:100%;">
+    <div id="events_box_right" style="display:none; float:left; width:100%; margin-bottom:30px;">
       <div class="events ball" style="background:#ff9000; float:left; margin-left:-24px;"></div>
-      <div class="arrow_right"><img src="" width="13" height="33" alt=""/></div>
+      <div class="arrow_right"><img src="images/arrow_red_left.png" width="13" height="33" alt=""/></div>
       <div class="box_post_right">
         <div class="post">
           <img src=""alt="" style="max-width:430px;"/> 
@@ -62,38 +50,37 @@
       </div>
     </div>
 
-    <div id="events_box_right_milestone" style="display:none; float:left; width:100%;">
-      <div class="events ball milestone" style="float:left; margin-left:-24px;"></div>
-      <div class="arrow_right_milestone"><img src="" width="13" height="33" alt=""/></div>
-      <div class="box_post_right_milestone">
-        <div class="post">
-          <div class="flag"><img src="" width="37" height="37" alt=""/></div>
-          <div class="text">
-            <p class="event_title" style="color:#FFFFFF; margin-top:0px; font-size:20px;"></p>
-            <p class="event_date" style="font-size:16px; color:#FFFFFF; margin-top:-18px;"></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="coluna0">
-      <div class="events left">
-      </div>
-
-      <div class="events center">
-        <img src="" alt="" style="float: inherit;">
-        <div class="event_line_future" style="height:0px; margin-left:2px;"></div>
-        <hr style="display:none"></hr>
-        <div class="event_line_past" style="height:0px;"></div>
-        <div id="center_balls"></div>
-        <img src="" alt="" style="float: inherit; margin-left:2px;">
-        <div class="aptoide-release">
-          <span>BEGINNING</span>
+      <div id="future">
+        <div class="events left">
         </div>
+
+        <div class="events center">
+          <img src="" alt="" style="float: inherit;">
+          <div class="event_line_future" style="min-height:200px; margin-left:2px;"></div>
+          <div id="center_balls"></div>
+          <img src="" alt="" style="float: inherit; margin-left:2px;">
+        </div>
+
+        <div class="events right"></div>
       </div>
+      <hr style="">
+      <div id="past">
+        <div class="events left">
+        </div>
 
-      <div class="events right"></div>
+        <div class="events center">
+          <img src="" alt="" style="float: inherit;">
+          <div class="event_line_past" style="min-height:200px;"></div>
+          <div id="center_balls"></div>
+          <img src="" alt="" style="float: inherit; margin-left:2px;">
+        </div>
 
+        <div class="events right"></div>
+      </div>
+      <div class="events-begin">
+            <span>BEGINNING</span>
+          </div>
     </div>
   </div>
   <div class="clear"></div>

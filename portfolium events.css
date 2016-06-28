@@ -65,16 +65,15 @@ body {
 }
 
 .coluna0{
-  width:862px;
+  width:830px;
   height:auto;
   margin:auto;
 }
 
 .events.center{
-  width:31px;
+  display: flex;
+  width:16px;
   height:auto;
-	margin-bottom: 10px;
-  margin-left: -17px;
   float:left;
   text-align:center;  
 }
@@ -85,9 +84,8 @@ body {
   margin-top: 60px;
 }
 
-.events.center hr{
+.coluna0 hr{
   width: 500px;
-  margin-left: -210px;
   margin-top: 0px;
   margin-bottom: 0px;
   border: 0;
@@ -99,9 +97,10 @@ body {
 }
 
 .events.center .event_line_past{
-  border-right: 7px solid rgb(225, 225, 225);
+  border-right: 6px solid rgb(225, 225, 225);
   width: 29px;
   margin-top: 0px;
+  margin-left: 12px;
 }
 
 .events_title{
@@ -113,17 +112,24 @@ body {
 .events.left{
   width:400px;
   margin-right: 4px;
-  margin-top: 140px;
   height:auto;
   float: left;
+}
+
+#future .events.left{
+  margin-top: 140px;
+}
+
+#future .events.right {
+  margin-top: 200px;
 }
 
 .events.right{
   width:400px;
   height:auto;
   float: right;
-  margin-right:25px;
-  margin-top:148px;
+  margin-left: 16px;
+  margin-right: 15px;
 }
 .box_post_left{
 	float: right;
@@ -153,44 +159,6 @@ body {
 	border-radius: 10px;
 	width: 13px;
 	position: relative;
-}
-
-.events.ball.milestone{
-	margin-top: 30px;
-	height: 13px;
-	border-radius: 10px;
-	width: 13px;
-	background:rgb(255, 102, 0);
-	position: relative;
-}
-
-.aptoide-milestone{
-	position: absolute;
-	width: 140px;
-	color: #FF6501;
-	font-weight: 600;
-	margin-left: -35px;
-	margin-top: 510px;
-}
-
-.box_post_left_milestone{
-	float: right;
-  height:80px;
-  margin-right:10px;
-  background-color:#ff6600;
-  -webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-}
-
-.box_post_right_milestone{
-	float: left;
-	margin-left: 12px;
-	height:80px;
-	background-color:#ff6600;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
 }
 
 .event_title{
@@ -239,14 +207,6 @@ body {
 	margin-right: -15px;
 }
 
-.flag{
-	width: 40px;
-	height: 40px;
-	margin: 10px 20px 10px 0px;
-	margin-top: 10px;
-	float: left;
-}
-
 .events .text{
 	float: right;
 	max-width: 300px;
@@ -259,14 +219,15 @@ body {
 	padding:10px;
 }
 
-.aptoide-release{
+.events-begin{
   font-size: 16px;
-  float: left;
   color: #ff6600;
+  text-align: center;
   font-weight: 700;
 }
 
 .menu {
+  position: fixed;
   height: 100%;
   float: left;
   max-width: 35%;
@@ -285,4 +246,17 @@ form textarea {
 form input[type="submit"] {
   display: block;
   margin: 20px auto;
+}
+
+.coluna0 #future, .coluna0 #past{
+  display: flex;
+  width: 820px;
+}
+
+#errors {
+  color: red;
+}
+
+#errors span {
+  display: inherit;
 }
